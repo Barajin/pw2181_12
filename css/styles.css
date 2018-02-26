@@ -1,0 +1,32 @@
+body {
+	/*background-color: blue;*/
+	/*background-color: rgba(155,155,0,0.5);*/
+	/*background-color: tomato;*/
+	/*background-color: peru;*/
+	/*background-color: hotpink;*/
+	background-color: #00b2dae0;
+	color: white;
+}
+
+header {
+	border: 1px solid black;
+	border-radius: 5px; 
+	text-align: center;
+}
+
+header nav ul li {
+	background-color: orange;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	display: inline-block; /* Quita el 100 % y se ajusta a su contenido */
+	width: 90px;
+}
+
+header nav ul li:hover {
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid orange;
+	border-radius: 5px;
+	display: inline-block; /* Quita el 100 % y se ajusta a su contenido */
+	width: 90px;
+}
+
