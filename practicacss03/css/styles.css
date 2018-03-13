@@ -1,29 +1,99 @@
 body {
     background: #2B2B2B;
     color: white;
+    font-family: sans-serif;
     font-size: 1em;
     margin: 0px auto;
-    max-width: 1078px;
-    min-width: 1078px;
+    max-width: 1024px;
+    min-width: 1024px;
 }
 
 header {
     background: white;
+    display: inline-block;
 }
 
-header img {
-    width: 100%;
+header input[type="search"] {
+    margin: 10px 20px;
+    vertical-align: top;
+    text-align: right;
+    width: 15%;
 }
 
 #firstSection {
-    width: 30%;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
-#firstSection img {
-    width: 100%;
+#firstSection article {
+    display: inline-block;
+    height: 275px;
+    margin-right: -5px;
+    padding: 21px 4.5px;
+    vertical-align: top;
+    width: 19%;
 }
 
 #firstSection ul li {
-    display: inline-block;
+    display: block;
+    padding-bottom: 10px;
     text-decoration: none;
+}
+
+#logo {
+    width: 100%;
+}
+
+#navImg {
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+#thirdSection article {
+    display: inline-block;
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 29%;
+}
+
+#secondSection {
+    text-align: right;
+}
+
+#secondSection article {
+    border-bottom: 1px dashed white;
+    display: inline-block;
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 29%;
+}
+
+#secondSection article img {
+    width: 80%;
+}
+
+.greenColor {
+    background: #B4D052;
+}
+
+.grayColor {
+    background: #545454;
+}
+
+.lightGrayColor {
+    background: #E4E4E4;
+}
+
+.redColor {
+    background: #D42D3F;
+}
+
+.bigFont {
+    font-size: 1.5em;
+}
+
+.boldFont {
+    font-weight: bold;
 }
