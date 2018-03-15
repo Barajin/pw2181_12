@@ -1,7 +1,7 @@
 body {
     background: #2B2B2B;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     margin: 0px auto;
     max-width: 1024px;
@@ -42,6 +42,7 @@ header input[type="search"] {
 #firstSection ul li {
     color: #8F8F8F;
     display: block;
+    font-family: 'Righteous', cursive;
     padding-bottom: 10px;
     text-decoration: none;
 }
@@ -125,4 +126,3 @@ header input[type="search"] {
     margin-top: 30px;
     text-align: right;
 }
-
