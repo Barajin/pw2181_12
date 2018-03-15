@@ -9,19 +9,22 @@ body {
 }
 
 header {
-    background: white;
+    background: #F0F0F0;
     display: inline-block;
 }
 
 header input[type="search"] {
+    background: #EEEEEE;
+    border: 1px solid #E2E2E2;
     margin: 10px 20px;
-    vertical-align: top;
+    padding: 5px 0px;
     text-align: right;
+    vertical-align: top;
     width: 15%;
 }
 
 #firstSection {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #303030;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -37,6 +40,7 @@ header input[type="search"] {
 }
 
 #firstSection ul li {
+    color: #8F8F8F;
     display: block;
     padding-bottom: 10px;
     text-decoration: none;
@@ -52,10 +56,18 @@ header input[type="search"] {
 }
 
 #thirdSection article {
+    color: #8F8F8F;
     display: inline-block;
-    margin: 20px;
+    margin: 0px 20px;
     padding-bottom: 20px;
+    vertical-align: top;
     width: 29%;
+}
+
+#thirdSection ul li {
+    display: block;
+    padding-bottom: 5px;
+    text-decoration: none;
 }
 
 #secondSection {
@@ -63,7 +75,7 @@ header input[type="search"] {
 }
 
 #secondSection article {
-    border-bottom: 1px dashed white;
+    border-bottom: 1px dashed #8F8F8F;
     display: inline-block;
     margin: 20px;
     padding-bottom: 20px;
@@ -74,26 +86,43 @@ header input[type="search"] {
     width: 80%;
 }
 
+.bigFont {
+    font-size: 1.5em;
+}
+
+.blueColor {
+    color: #496D80;
+}
+
+.boldFont {
+    color: white;
+    font-weight: bold;
+}
+
 .greenColor {
     background: #B4D052;
 }
 
 .grayColor {
     background: #545454;
+    color: #9E9E9E;
 }
 
 .lightGrayColor {
     background: #E4E4E4;
+    color: #787878;
+}
+
+.whiteColor {
+    color: white;
 }
 
 .redColor {
     background: #D42D3F;
 }
 
-.bigFont {
-    font-size: 1.5em;
+.rightAlign {
+    margin-top: 30px;
+    text-align: right;
 }
 
-.boldFont {
-    font-weight: bold;
-}
