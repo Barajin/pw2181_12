@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Audio y video</title>
+    <link rel="stylesheet" href="css/audiovideo.css">
+</head>
+
+<body>
+    Etiquetas para audio y video
+    <br>
+    <!-- play o autoplay -->
+    <audio controls play loop>
+        <source src="media/audio/musica.mp3">
+    </audio>
+    <br>
+    <!-- Mutuamente excluyentes, ignora dependiendo de cual puede reproducir el navegador -->
+    <!-- preload: se empieza a descargar sin darle play -->
+    <video controls play loop preload="auto">
+        <source src="media/video/Chrome_ImF.mp4">
+        <source src="media/video/Chrome_ImF.ogv">
+        <source src="media/video/Chrome_ImF.webm">            
+    </video>
+    <br>
+    <video controls play preload="auto">
+            <source src="media/video/html5.mp4">
+            <source src="media/video/html5.webm">          
+    </video>
+
+</body>
+
+</html>
