@@ -1,0 +1,36 @@
+article {
+    background: rgb(221, 243, 243);
+    border: 2px solid rgb(34, 75, 88);
+    color: black;
+    margin: 20px 5px;
+    padding: 5px;
+    text-align: center;
+    transition: all 5s linear;
+    -o-transition: all 5s linear;
+    -webkit-transition: all 5s linear;
+    -ms-transition: all 5s linear;
+    -moz-transition: all 5s linear;
+    width: 400px;
+}
+
+
+/* article:hover {
+    height: 400px;
+    width: 800px;
+} */
+
+article:hover {
+    background: rgb(47, 42, 109);
+    color: white;
+    -o-transform: translate(150px, 300px);
+    -ms-transform: translate(150px, 300px);
+    -webkit-transform: translate(150px, 300px);
+    -moz-transform: translate(150px, 300px);
+    transform: translate(150px, 300px);
+}
+
+p {
+    font: 30px Tahoma;
+    font-weight: bold;
+    width: 100%;
+}

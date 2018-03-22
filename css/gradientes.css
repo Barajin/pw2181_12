@@ -1,0 +1,82 @@
+article {
+    border-radius: 5px;
+    border: 1px solid darkcyan;
+    height: 50px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+#uno {
+    /* si no soporta gradientes: */
+    background: lightgray;
+    /* Para casi todos los navegadores: */
+    background: linear-gradient(#3F51B5, #673AB7);
+    /* opera */
+    background: -o-linear-gradient(#3F51B5, #673AB7);
+    /* safari */
+    background: -webkit-linear-gradient(#3F51B5, #673AB7);
+    /* firefox */
+    background: -moz-linear-gradient(#3F51B5, #673AB7);
+    /* IE o edge */
+    background: -ms-linear-gradient(#3F51B5, #673AB7);
+}
+
+#dos {
+    /* si no soporta gradientes: */
+    background: lightgray;
+    /* Para casi todos los navegadores: */
+    background: linear-gradient(to left, #3F51B5, #673AB7);
+    /* opera */
+    background: -o-linear-gradient(to left, #3F51B5, #673AB7);
+    /* safari */
+    background: -webkit-linear-gradient(to left, #3F51B5, #673AB7);
+    /* firefox */
+    background: -moz-linear-gradient(to left, #3F51B5, #673AB7);
+    /* IE o edge */
+    background: -ms-linear-gradient(to left, #3F51B5, #673AB7);
+}
+
+#tres {
+    /* si no soporta gradientes: */
+    background: lightgray;
+    /* Para casi todos los navegadores: */
+    background: linear-gradient(to right, #3F51B5, #673AB7);
+    /* opera */
+    background: -o-linear-gradient(to right, #3F51B5, #673AB7);
+    /* safari */
+    background: -webkit-linear-gradient(to right, #3F51B5, #673AB7);
+    /* firefox */
+    background: -moz-linear-gradient(to right, #3F51B5, #673AB7);
+    /* IE o edge */
+    background: -ms-linear-gradient(to right, #3F51B5, #673AB7);
+}
+
+#cuatro {
+    /* si no soporta gradientes: */
+    background: lightgray;
+    /* Para casi todos los navegadores: */
+    background: linear-gradient(to right bottom, #3F51B5, #673AB7);
+    /* opera */
+    background: -o-linear-gradient(to right bottom, #3F51B5, #673AB7);
+    /* safari */
+    background: -webkit-linear-gradient(to right bottom, #3F51B5, #673AB7);
+    /* firefox */
+    background: -moz-linear-gradient(to right bottom, #3F51B5, #673AB7);
+    /* IE o edge */
+    background: -ms-linear-gradient(to right bottom, #3F51B5, #673AB7);
+}
+
+#cinco {
+    /* si no soporta gradientes: */
+    background: lightgray;
+    /* Para casi todos los navegadores: */
+    background: linear-gradient(to left bottom, #3F51B5, #673AB7);
+    /* opera */
+    background: -o-linear-gradient(to left bottom, #3F51B5, #673AB7);
+    /* safari */
+    background: -webkit-linear-gradient(to left bottom, #3F51B5, #673AB7);
+    /* firefox */
+    background: -moz-linear-gradient(to left bottom, #3F51B5, #673AB7);
+    /* IE o edge */
+    background: -ms-linear-gradient(to left bottom, #3F51B5, #673AB7);
+}
