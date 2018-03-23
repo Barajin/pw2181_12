@@ -1,0 +1,74 @@
+/* El caracter ~ indica que estos selectores estaán separados por espacios */
+
+article[class~="resaltado"] {
+    border: 1px dashed darkgoldenrod;
+}
+
+article[class~="archivo"] {
+    border: 1px dashed darkred;
+}
+
+article[class~="ingles"] {
+    border: 1px dashed darkseagreen;
+}
+
+
+/* p donde el padre directo es un div / sólo hijos directos del div */
+
+
+/* Selector de secundarios. Selecciona solamente las <p> que se encuentran inmediatamente
+después del <div> */
+
+div>p {
+    color: darkcyan;
+}
+
+
+/* Todos los elementos <p> dentro de un div, serán seleccionados */
+
+div p {
+    color: darkred;
+}
+
+
+/* El atributo class/id es una lista de valores separados por guiones -  */
+
+article[class|="ingles"] {
+    border: 1px solid darkcyan;
+    text-align: center;
+}
+
+
+/* Imagen con atributo alt */
+
+img[alt] {
+    border: 5px solid rgb(114, 168, 202);
+}
+
+
+/* Imagen con atributo src cadena exacta */
+
+img[src="img/HTML5logo.png"] {
+    width: 100px;
+}
+
+
+/* ^ circunflejo. Imagen con atributo src con el inicio de la cadena */
+
+img[src^="img/"] {
+    background: black;
+}
+
+
+/* Imagen con atributo src con png al final de la cadena */
+
+img[src$="png"] {
+    width: 150px;
+}
+
+
+/* Imagen con atributo src con png en cualquier parte de la cadena */
+
+img[src*="mg/"] {
+    width: 100px;
+}

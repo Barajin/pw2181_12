@@ -5,11 +5,11 @@ article {
     margin: 20px 5px;
     padding: 5px;
     text-align: center;
-    transition: all 5s linear;
-    -o-transition: all 5s linear;
-    -webkit-transition: all 5s linear;
-    -ms-transition: all 5s linear;
-    -moz-transition: all 5s linear;
+    transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -moz-transition: all 1s linear;
     width: 400px;
 }
 
@@ -19,7 +19,8 @@ article {
     width: 800px;
 } */
 
-article:hover {
+
+/* article:hover {
     background: rgb(47, 42, 109);
     color: white;
     -o-transform: translate(150px, 300px);
@@ -27,6 +28,49 @@ article:hover {
     -webkit-transform: translate(150px, 300px);
     -moz-transform: translate(150px, 300px);
     transform: translate(150px, 300px);
+} */
+
+
+/* article:hover {
+    background: rgb(47, 42, 109);
+    color: white;
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+} */
+
+
+/* article:hover {
+    background: rgb(47, 42, 109);
+    color: white;
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+} */
+
+
+/* article:hover {
+    background: rgb(47, 42, 109);
+    color: white;
+    -o-transform: skew(-10deg, 10deg);
+    -ms-transform: skew(-10deg, 10deg);
+    -webkit-transform: skew(-10deg, 10deg);
+    -moz-transform: skew(-10deg, 10deg);
+    transform: skew(-10deg, 10deg);
+} */
+
+article:hover {
+    background: rgb(47, 42, 109);
+    color: white;
+    -o-transform: translate(150px, 150px) rotate(360deg) scale(2.3) skew(-10deg, 10deg);
+    -ms-transform: translate(150px, 150px) rotate(360deg) scale(2.3) skew(-10deg, 10deg);
+    -webkit-transform: translate(150px, 150px) rotate(360deg) scale(2.3) skew(-10deg, 10deg);
+    -moz-transform: translate(150px, 150px) rotate(360deg) scale(2.3) skew(-10deg, 10deg);
+    transform: translate(150px, 150px) rotate(360deg) scale(2.3) skew(-10deg, 10deg);
 }
 
 p {
