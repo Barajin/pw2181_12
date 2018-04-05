@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin: 0px auto;
+    max-width: 1024px;
+    min-width: 1024px;
+}
+
+header {
+    border-bottom: 1px dashed darkgrey;
+    display: inline-block;
+    height: 170px;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+header nav ul {
+    margin: 20px;
+    padding: 20px 5px;
+}
+
+header nav ul li {
+    margin-right: 15px;
+    padding-bottom: 5px;
+}
+
+nav {
+    width: 60%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+#bike {
+    width: 100%;
+}
+
+#buy {
+    left: -100px;
+    position: relative;
+    top: -80px;
+    width: 50px;
+}
+
+#firstSection {
+    vertical-align: top;
+    width: 60%;
+}
+
+#goToShop {
+    left: -90px;
+    position: relative;
+    top: -120px;
+    width: 150px;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+#textArticle {
+    border-bottom: 1px dashed darkgrey;
+}
+
+#secondSection {
+    width: 39%;
+}
+
+#years {
+    margin-top: -100px;
+    width: 160px;
+}
+
+.bigFont {
+    font-size: 4em;
+}
+
+.greenColor {
+    color: green;
+    margin: 0px;
+}
+
+.headerIcon {
+    margin-left: 5px;
+    width: 30px;
+}
+
+.imgWidth {
+    width: 47%;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.toRight {
+    float: right;
+}
