@@ -1,9 +1,15 @@
 body {
+    color: gray;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     margin: 0px auto;
     max-width: 1024px;
     min-width: 1024px;
+}
+
+footer {
+    margin-left: 20px;
+    margin-top: 40px;
 }
 
 header {
@@ -21,12 +27,15 @@ header nav ul {
 }
 
 header nav ul li {
+    color: black;
+    font-family: 'Baloo', cursive;
+    font-size: 1.2em;
     margin-right: 15px;
     padding-bottom: 5px;
 }
 
 nav {
-    width: 60%;
+    width: 70%;
 }
 
 ul li {
@@ -44,9 +53,48 @@ ul li {
     width: 50px;
 }
 
+#credits {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.2em;
+    position: relative;
+    top: -15px;
+}
+
+#descriptionArticle {
+    padding: 20px 0px;
+}
+
 #firstSection {
+    margin-left: 20px;
     vertical-align: top;
-    width: 60%;
+    width: 58%;
+}
+
+#footerSection {
+    margin: 20px 0px;
+}
+
+#footerSection article {
+    display: inline-block;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+#footerSection article p:first-of-type{
+    border-top: 1px solid darkgrey;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+#footerSection article:not(#lastArticle) {
+    width: 15%;
+}
+
+#footerSection article p {
+    font-family: 'Slabo 27px', serif;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
 }
 
 #goToShop {
@@ -54,6 +102,10 @@ ul li {
     position: relative;
     top: -120px;
     width: 150px;
+}
+
+#lastArticle {
+    width: 23%;
 }
 
 #logo {
@@ -65,8 +117,10 @@ ul li {
 }
 
 #secondSection {
-    width: 39%;
+    width: 38%;
 }
+
+
 
 #years {
     margin-top: -100px;
@@ -74,12 +128,18 @@ ul li {
 }
 
 .bigFont {
+    font-family: 'Baloo', cursive;
     font-size: 4em;
 }
 
+.blackColor {
+    color: black;
+}
+
 .greenColor {
-    color: green;
+    color: #73F33D;
     margin: 0px;
+    margin-top: -40px;
 }
 
 .headerIcon {
