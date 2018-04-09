@@ -80,7 +80,7 @@ ul li {
     vertical-align: top;
 }
 
-#footerSection article p:first-of-type{
+#footerSection article p:first-of-type {
     border-top: 1px solid darkgrey;
     margin-top: 15px;
     padding-top: 10px;
@@ -119,8 +119,6 @@ ul li {
 #secondSection {
     width: 38%;
 }
-
-
 
 #years {
     margin-top: -100px;
