@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>localStorage-sessionStorage</title>
+</head>
+
+<body>
+    <div id="demo">0</div>
+    <button onclick="aumentar();">Contador</button>
+    <button onclick="reiniciar();">Reiniciar</button>
+    <button onclick="eliminar();">Eliminar</button>
+
+    <script>
+        // Código JavaScript
+
+        var imprime = function(dato) {
+            document.getElementById('demo').innerHTML = dato;
+        }
+
+        if (typeof(Storage) != undefined) {
+            if (localStorage.cuenta) // si existe
+                imprime(localStorage.cuenta);
+            else
+                localStorage.cuenta = 0;
+        }
+
+        var aumentar = function() {
+            localStorage.cuenta++;
+            imprime(localStorage.cuenta);
+        };
+
+        var reiniciar = function() {
+            localStorage.cuenta = 0;
+            imprime(localStorage.cuenta);
+        };
+
+        var eliminar = function() {
+            localStorage.removeItem('cuenta');
+            console.log(localStorage.cuenta);
+        };
+    </script>
+</body>
+
+</html>
